@@ -25,7 +25,7 @@ Back_end/.env
 
 # Ambiente virtual
 venv/
-.env/
+
 
 # Arquivos de log e cache
 *.log
@@ -60,3 +60,6 @@ pip-log.txt
 dist/
 build/
 *.egg-info/
+
+.env
+Back_end/.env
