@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+Back_end/.env
+
+# Ambiente virtual
+venv/
+.env/
+
+# Arquivos de log e cache
+*.log
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Configs de IDEs
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.swp
+*.swo
+
+# Backup de editores
+*~
+
+# Diretórios de testes temporários
+.pytest_cache/
+.tox/
+
+# Pip
+pip-log.txt
+
+# Arquivos de pacotes
+dist/
+build/
+*.egg-info/

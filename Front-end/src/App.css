@@ -1,0 +1,82 @@
+/* styles-yousummary.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #161b22;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+}
+
+h1 {
+  color: #58a6ff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  padding: 0.75rem;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-size: 1rem;
+}
+
+input[type="text"]::placeholder {
+  color: #8b949e;
+}
+
+button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #238636;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2ea043;
+}
+
+.resultado {
+  background-color: #21262d;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+}
+
+.resultado h2 {
+  color: #58a6ff;
+  margin-bottom: 1rem;
+}
+
+.resultado p {
+  white-space: pre-line;
+  font-size: 1rem;
+}
